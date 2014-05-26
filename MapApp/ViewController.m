@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ViewController2.h"
 
 @interface ViewController ()
 
@@ -55,10 +56,22 @@
     annotationView.animatesDrop = YES;
     annotationView.canShowCallout = YES;
     annotationView.pinColor = MKPinAnnotationColorPurple;
+    
     annotationView.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
     
     return annotationView;
 }
+
+
+- (void) mapView:(MKMapView*) mapView annotationView:(MKAnnotationView*)view calloutAccessoryControlTapped:(UIControl *)control{
+    
+    ViewController2 *ViewController2 = [self.storyboard instantiateViewControllerWithIdentifier:@"VC2"];
+[self presentViewController:ViewController2 animated:YES completion:nil];
+}
+
+
+
+
 
 - (void)locationManager:(CLLocationManager *)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status
            flomLocation:(CLLocation *)oldLocation{
