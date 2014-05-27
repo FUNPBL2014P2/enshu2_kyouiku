@@ -21,6 +21,7 @@
 		7456DBB9192F674600EA2866 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7456DB9B192F674500EA2866 /* UIKit.framework */; };
 		7456DBC1192F674600EA2866 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7456DBBF192F674600EA2866 /* InfoPlist.strings */; };
 		7456DBC3192F674600EA2866 /* MapAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7456DBC2192F674600EA2866 /* MapAppTests.m */; };
+		9CD7B2071933010A0094D7A5 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD7B2061933010A0094D7A5 /* ViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		7456DBBE192F674600EA2866 /* MapAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapAppTests-Info.plist"; sourceTree = "<group>"; };
 		7456DBC0192F674600EA2866 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7456DBC2192F674600EA2866 /* MapAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapAppTests.m; sourceTree = "<group>"; };
+		9CD7B2051933010A0094D7A5 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		9CD7B2061933010A0094D7A5 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				7456DBA7192F674500EA2866 /* AppDelegate.m */,
 				7456DBA9192F674500EA2866 /* Main.storyboard */,
 				7456DBAC192F674500EA2866 /* ViewController.h */,
+				9CD7B2051933010A0094D7A5 /* ViewController2.h */,
+				9CD7B2061933010A0094D7A5 /* ViewController2.m */,
 				7456DBAD192F674500EA2866 /* ViewController.m */,
 				7456DBAF192F674500EA2866 /* Images.xcassets */,
 				7456DB9E192F674500EA2866 /* Supporting Files */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7456DBAE192F674500EA2866 /* ViewController.m in Sources */,
+				9CD7B2071933010A0094D7A5 /* ViewController2.m in Sources */,
 				7456DBA8192F674500EA2866 /* AppDelegate.m in Sources */,
 				7456DBA4192F674500EA2866 /* main.m in Sources */,
 			);
@@ -456,6 +462,7 @@
 				7456DBC8192F674600EA2866 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7456DBC9192F674600EA2866 /* Build configuration list for PBXNativeTarget "MapAppTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				7456DBCB192F674600EA2866 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
