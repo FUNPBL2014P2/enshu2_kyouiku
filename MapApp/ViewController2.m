@@ -27,6 +27,10 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    NSURL *myURL = [NSURL URLWithString:@"http://www.fun.ac.jp/"];
+    NSURLRequest *myURLReq = [NSURLRequest requestWithURL:myURL];
+    [self.myWebView loadRequest:myURLReq];
+    self.myWebView.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning
