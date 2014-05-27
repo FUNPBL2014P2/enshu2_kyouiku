@@ -51,6 +51,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="myWebView" destination="nAO-fs-BNQ" id="NVv-6I-94R"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ave-bn-sCy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
