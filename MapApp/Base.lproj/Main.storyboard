@@ -57,6 +57,11 @@
                                             <action selector="back:" destination="Lfp-fn-hnN" id="zck-S7-maL"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem title="next" id="Agf-rd-xPf">
+                                        <connections>
+                                            <action selector="next:" destination="Lfp-fn-hnN" id="QdK-oa-JcN"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>
