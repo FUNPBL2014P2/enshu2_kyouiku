@@ -52,7 +52,11 @@
                                 <rect key="frame" x="0.0" y="524" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem title="Item" id="oQ8-Ju-3zz"/>
+                                    <barButtonItem title="back" id="oQ8-Ju-3zz">
+                                        <connections>
+                                            <action selector="back:" destination="Lfp-fn-hnN" id="zck-S7-maL"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>
