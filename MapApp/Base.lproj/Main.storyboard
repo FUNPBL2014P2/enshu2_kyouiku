@@ -62,6 +62,11 @@
                                             <action selector="next:" destination="Lfp-fn-hnN" id="QdK-oa-JcN"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem title="reload" id="aLw-JG-3Yg">
+                                        <connections>
+                                            <action selector="reload:" destination="Lfp-fn-hnN" id="UY4-cN-hs5"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem title="stop" id="4Y6-JP-jYd">
                                         <connections>
                                             <action selector="stop:" destination="Lfp-fn-hnN" id="Pb5-J2-5xv"/>
