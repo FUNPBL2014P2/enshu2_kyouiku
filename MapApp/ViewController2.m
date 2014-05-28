@@ -50,4 +50,7 @@
 }
 */
 
+- (IBAction)back:(id)sender {
+    [self.myWebView goBack];
+}
 @end
