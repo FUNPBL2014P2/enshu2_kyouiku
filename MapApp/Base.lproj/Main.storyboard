@@ -62,6 +62,11 @@
                                             <action selector="next:" destination="Lfp-fn-hnN" id="QdK-oa-JcN"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem title="stop" id="4Y6-JP-jYd">
+                                        <connections>
+                                            <action selector="stop:" destination="Lfp-fn-hnN" id="Pb5-J2-5xv"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>
