@@ -61,4 +61,7 @@
 - (IBAction)stop:(id)sender {
     [self.myWebView stopLoading];
 }
+- (IBAction)reload:(id)sender {
+    [self.myWebView reload];
+}
 @end
