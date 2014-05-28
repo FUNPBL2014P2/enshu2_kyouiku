@@ -53,4 +53,8 @@
 - (IBAction)back:(id)sender {
     [self.myWebView goBack];
 }
+
+- (IBAction)next:(id)sender {
+    [self.myWebView goForward];
+}
 @end
